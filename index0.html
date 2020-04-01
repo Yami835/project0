@@ -3,30 +3,48 @@
     <head>
         <title>My Webpage</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <style>
+         table {
+             border: 2px solid black;
+             border-collapse: collapse;
+             width: 50%;
+         }
+         
+         th, td {
+             border: 1px solid black;
+             padding: 5px;
+             text-align: center;
+         }
+         
+         th {
+             background color: lightgrey;
+         }
+        </style>
     </head>
     <body>
-        Hello, world!
-        My name is Yami!
+        <h1 style="color:red;text-align:center;">Table of Yami's Favorite Cars</h1>
+        <table>
+            <tr>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Chevrolet</td>
+                <td>Camaro</td>
+                <td>1979</td>
+            </tr>
+            <tr>
+                <td>Subaru</td>
+                <td>WRX</td>
+                <td>2013</td>
+            </tr>
+            <tr>
+                <td>BMW</td>
+                <td>M3</td>
+                <td>2020</td>
+            </tr>
+        </table>
     </body>
 </html>
-<div class="container">
-  <div class="row">
-    <div class="col">
-      1 of 2
-    </div>
-    <div class="col">
-      2 of 2
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      1 of 3
-    </div>
-    <div class="col">
-      2 of 3
-    </div>
-    <div class="col">
-      3 of 3
-    </div>
-  </div>
-</div>
+
