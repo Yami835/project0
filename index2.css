@@ -1,4 +1,5 @@
 ul {
+<<<<<<< HEAD
   font-size: 14px;
   color: blue; }
 
@@ -7,3 +8,13 @@ ol {
   color: blue; }
 
 /*# sourceMappingURL=index2.css.map */
+=======
+   font-size: 14px;
+   color: blue;
+   }
+   
+ol {
+   font-size: 14px;
+   color: blue;
+   }
+>>>>>>> 712e010a8b30c2c0778da77ec06206aa7bc7bf82
